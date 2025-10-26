@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMOR | Portfolio</title>
+  <meta name="description" content="아모르의 품질·AI 기반 포트폴리오">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="container">
+  <nav class="nav">
+    <a class="brand" href="#home">AMOR</a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <section id="home" class="hero">
+    <img src="assets/profile.png" alt="Profile" class="profile">
+    <div class="hero-text">
+      <h1>김영인 · 품질팀 · AI 활용</h1>
+      <p>가스계량/압력조정기 품질관리 · 데이터 기반 개선 · AI 도입 컨설팅</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">프로젝트 보기</a>
+        <a class="btn ghost" href="#contact">연락하기</a>
+      </div>
+      <div class="meta">
+        <span>📍 인천 ↔ 춘천</span>
+        <span>🎯 목표: 스마트 계량·스마트그리드 품질 혁신</span>
+      </div>
+    </div>
+  </section>
+</header>
+
+<main class="container">
+  <section id="about" class="card">
+    <h2>About</h2>
+    <p>
+      품질 엔지니어로서 가스계량기·압력조정기 등 계측장비의 <strong>검사/교정/성능 검증</strong>을 수행해 왔습니다.
+      공정관리와 데이터 분석, AI 도구를 접목해 <strong>불량률 저감</strong>과 <strong>문서 자동화</strong>를 추진합니다.
+      춘천 지역의 <strong>스마트 그리드·시니어 케어</strong> 분야로의 확장에도 관심이 있습니다.
+    </p>
+    <ul class="bullets">
+      <li>검사·교정: 엔코더 검사기, 기준습식가스미터, 검정용 기차검사대 운용</li>
+      <li>문서화: KGS 성능검증 요청서, A/S 불량 분석서, 내부 품질 메모</li>
+      <li>AI/데이터: Pandas/Excel 자동화, 품질 데이터 시각화, 간단한 예측 모델 적용</li>
+    </ul>
+  </section>
+
+  <section id="skills" class="card">
+    <h2>Skills</h2>
+    <div class="chips">
+      <span>QC/QA/RA</span><span>ISO 9001/14001/45001</span><span>KGS 성능검증</span>
+      <span>Gauge R&amp;R</span><span>FMEA</span><span>통계기반 관리</span>
+      <span>Python</span><span>Pandas</span><span>Excel</span><span>Power Query</span>
+      <span>HTML/CSS</span><span>Git/GitHub</span>
+    </div>
+  </section>
+
+  <section id="experience" class="card">
+    <h2>Experience</h2>
+    <article class="item">
+      <h3>품질관리 엔지니어 · 가스계량/압력조정기</h3>
+      <p class="period">– 현재</p>
+      <ul>
+        <li>절체기·조정기 OPSO/락업 세팅 검증 및 데이터 로깅 체계화</li>
+        <li>검사 공정 표준화 및 교육 자료 제작, 불량 유형 DB 구축</li>
+        <li>고객사 불량 재현 테스트·원인 분석(A/S 보고서 템플릿화)</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="projects" class="card">
+    <h2>Projects</h2>
+    <div id="project-list" class="grid"></div>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <p>
+      협업·문의는 아래 채널 중 편하신 방법으로 연락 주세요.
+    </p>
+    <ul class="contacts">
+      <li>GitHub: <a href="https://github.com/amor-korea" target="_blank" rel="noopener">github.com/amor-korea</a></li>
+      <li>Email: <a href="mailto:amor@example.com">amor@example.com</a> (제출 전 실제 메일로 교체)</li>
+      <li>Location: 인천 · 춘천</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="container footer">
+  <small>© <span id="year"></span> AMOR · Built for Github Pages</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

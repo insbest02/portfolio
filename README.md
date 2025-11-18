@@ -1,4 +1,4 @@
-# AMOR Portfolio (Github Pages)
+<img width="1023" height="298" alt="{5269B59D-3DB3-4298-9D84-6302DB55D508}" src="https://github.com/user-attachments/assets/6396d446-2c6a-4383-96fc-bff10c099ff6" /># AMOR Portfolio (Github Pages)
 
 이 저장소는 정적 사이트(HTML/CSS/JS) 기반 개인 포트폴리오입니다.  
 과제 요건: Github Pages 배포.
@@ -17,3 +17,4 @@
 - `index.html`의 이름/문구/링크 수정
 - `script.js`의 프로젝트 목록 갱신
 - 연락처 이메일을 실제 메일로 교체
+test

@@ -17,4 +17,4 @@
 - `index.html`의 이름/문구/링크 수정
 - `script.js`의 프로젝트 목록 갱신
 - 연락처 이메일을 실제 메일로 교체
-test
+test ok
